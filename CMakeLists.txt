@@ -13,6 +13,11 @@ if(POLICY CMP0015)
 	cmake_policy(SET CMP0015 OLD)
 endif()
 
+if(POLICY CMP0054)
+	cmake_policy(SET CMP0054 OLD)
+endif()
+
+
 include(CheckCXXCompilerFlag)
 
 
